@@ -1,0 +1,122 @@
+.grey-bg {
+    background-color: #f7f7f7;
+}
+
+.section-space--inner--120 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    display: inline-block;
+    font-size: 36px;
+    color: #f0542d;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.section-space--bottom--50 {
+    margin-bottom: 50px !important;
+}
+
+.title-icon {
+    width: 4px;
+    height: 20px;
+    background-color: #f0542d;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.latest-project-slider__container-area {
+    position: relative;
+}
+
+.video-cta-content__small-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #031f30;
+    margin-bottom: 15px;
+    font-family: 'SecuritasRegular' !important;
+}
+
+.video-cta-content__title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #1d1d25;
+    width: 415px;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.video-cta-content__text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #1d1d25;
+    font-family: 'SecuritasRegular' !important;
+    margin-bottom: 40px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.ht-btn--round {
+    font-size: 13px;
+    padding: 15px 50px;
+    background-color: #031f30;
+    color: #fff;
+    border-radius: 100px;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+}
+
+.ht-btn--round:visited {
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .margin-top-mobile {
+        margin-top: 25px !important;
+    }
+}
+
+.cta-video-image {
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-video-image__image {
+    overflow: hidden;
+}
+
+.cta-video-image__image img {
+    width: 100%;
+}
+
+.cta-video-image__icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0542d;
+    position: absolute;
+    line-height: 100px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+    left: -50px;
+}
+
+.cta-video-image:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-right: 5px solid #031f30;
+    border-bottom: 5px solid #031f30;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+}
+
+.link-item:hover {
+    color: #031f30;
+}

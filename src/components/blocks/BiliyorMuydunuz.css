@@ -1,0 +1,36 @@
+.myCarousel {
+    margin-top: -6%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 286px;
+}
+
+.carousel .control-dots {
+    padding-left: 5px !important;
+    outline: 0;
+    bottom: 5% !important;
+}
+
+.myCarousel p {
+    line-height: 29px !important;
+    color: #031f30;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 934px) {
+
+    .myCarousel {
+        margin-top: -9%;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .myCarousel-img {
+        margin-top: 50px;
+    }
+}

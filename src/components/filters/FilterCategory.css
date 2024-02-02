@@ -1,0 +1,11 @@
+.filterlist-item:hover {
+    color: #f78e1e !important;
+}
+
+.filterlist-item {
+    text-decoration: none;
+}
+
+.filterlist-item_name {
+    font-weight: bold;
+}

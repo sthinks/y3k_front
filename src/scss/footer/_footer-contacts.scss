@@ -1,0 +1,75 @@
+/*
+// .footer-contacts
+*/
+@import '../variables';
+@import '../functions';
+@import '../mixins/direction';
+
+
+.footer-contacts {}
+
+.footer-contacts__title {
+    margin-bottom: 25px;
+    color: #031f30;
+}
+
+.footer-contacts__text {
+    font-size: 15px;
+    line-height: 22px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @include direction {
+        #{$padding-inline-end}: 20px;
+    }
+
+    a {
+        color: #031f30;
+    }
+}
+
+.footer-contacts__contacts {
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+
+    a {
+        color: #031f30;
+        text-decoration: none;
+    }
+
+    li {
+        padding: 4px 0;
+        position: relative;
+    }
+}
+
+.footer-contacts__icon {
+    display: inline-block;
+    text-align: start;
+
+    @include direction {
+        #{$margin-inline-end}: 2px;
+    }
+}
+
+
+
+@media (max-width: breakpoint(sm-end)) {
+    .footer-contacts {
+        text-align: start;
+    }
+
+    .footer-contacts__title {
+        font-size: 28px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .footer-contacts__text {
+        padding: 0;
+    }
+}

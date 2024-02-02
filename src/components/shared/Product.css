@@ -1,0 +1,43 @@
+.product-tabs .container .tabs {
+    max-width: 1296px;
+    border: 1px solid rgba(31, 31, 31, .1);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 0;
+}
+
+.tabs span {
+    display: block;
+}
+
+.product-tabs .container .tabs span {
+    margin-left: 20px;
+}
+
+.product-tabs .container .tabs span {
+    position: relative;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #031f30;
+    display: inline-block;
+}
+
+.product-tabs .container .tabs-content {
+    max-width: 1296px;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(31, 31, 31, .1);
+    border-right: 1px solid rgba(31, 31, 31, .1);
+    border-left: 1px solid rgba(31, 31, 31, .1);
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .form-modal {
+        width: 100% !important;
+    }
+}
